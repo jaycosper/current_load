@@ -1,0 +1,22 @@
+Schematic
+Rev 1.1
+
+SCH1
+    RV1 scehmatic needs to be a voltage divider. RV1:2 wiper connects to U1A:3 and R2 (not ground). RV1:1 connects to VCC.
+SCH2
+    R6/R8 LED current limiters need evaluation (power)
+
+Layout
+Rev 1.1
+
+LAY1
+    Silkscreen of R4 and R5 are swapped in position
+
+LAY2
+    SCH1 Fix
+    - cut trace RV1:1-R2:2
+    - cut trace RV1:2-GND
+    - bluewire RV1:2 to R2:2
+    - bluewire RV1:1 to VCC (C1:2)
+
+
